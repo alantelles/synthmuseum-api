@@ -1,0 +1,7 @@
+@api = http://localhost:5000
+@companies = {{api}}/companies
+GET {{companies}}
+###
+GET {{companies}}/ppg
+###
+GET {{companies}}/ppg/synths
